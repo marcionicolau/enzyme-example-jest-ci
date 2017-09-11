@@ -31,4 +31,10 @@ describe("A suite", function() {
     const wrapper = shallow(<Foo loading />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
+
+  it("Should update Foo props", () => {
+    const info = "Foo";
+    const wrapper = mount(<Foo loading info="Bar" />);
+    expect(wrapper.setState({ info }).text()).toEqual(info);
+  });
 });
