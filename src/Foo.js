@@ -3,7 +3,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-const propTypes = {};
+const propTypes = {
+  loading: PropTypes.bool.isRequired,
+  info: PropTypes.string
+};
 
 const defaultProps = {};
 
