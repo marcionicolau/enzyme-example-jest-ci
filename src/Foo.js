@@ -8,7 +8,9 @@ const propTypes = {
   info: PropTypes.string
 };
 
-const defaultProps = {};
+const defaultProps = {
+  info: ""
+};
 
 class Foo extends Component {
   constructor(props) {
@@ -16,7 +18,7 @@ class Foo extends Component {
   }
 
   render() {
-    return <div className="foo0">Bar</div>;
+    return <div className="foo">Bar</div>;
   }
 }
 
