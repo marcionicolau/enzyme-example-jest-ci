@@ -6,25 +6,29 @@ import Foo from "../Foo";
 
 describe("A suite", function() {
   it("should render without throwing an error", function() {
-    expect(shallow(<Foo />).contains(<div className="foo">Bar</div>)).toBe(
-      true
-    );
+    const info = "Bar";
+    expect(
+      shallow(<Foo loading info={info} />).contains(
+        <div className="foo">{info}</div>
+      )
+    ).toBe(true);
   });
 
   it('should be selectable by class "foo"', function() {
-    expect(shallow(<Foo />).is(".foo")).toBe(true);
+    expect(shallow(<Foo loading />).is(".foo")).toBe(true);
   });
 
   it("should mount in a full DOM", function() {
-    expect(mount(<Foo />).find(".foo").length).toBe(1);
+    expect(mount(<Foo loading />).find(".foo").length).toBe(1);
   });
 
   it("should render to static HTML", function() {
-    expect(render(<Foo />).text()).toEqual("Bar");
+    const info = "Bar";
+    expect(render(<Foo loading info={info} />).text()).toEqual(info);
   });
 
   it("snapshot check", () => {
-    const wrapper = shallow(<Foo />);
+    const wrapper = shallow(<Foo loading />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
