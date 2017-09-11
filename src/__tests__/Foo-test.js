@@ -24,7 +24,7 @@ describe("A suite", function() {
   });
 
   it("snapshot check", () => {
-    const wrapper = shallow(<Foo />).toJSON();
-    expect(wrapper).toMatchSnapshot();
+    const wrapper = shallow(<Foo />);
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
