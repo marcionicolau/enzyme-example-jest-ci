@@ -3,7 +3,5 @@
 exports[`A suite snapshot check 1`] = `
 <div
   className="foo"
->
-  Bar
-</div>
+/>
 `;
