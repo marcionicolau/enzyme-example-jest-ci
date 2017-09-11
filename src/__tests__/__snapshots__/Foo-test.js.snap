@@ -1,6 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`A suite snapshot check 1`] = `
 <div
-  className="foo">
+  className="foo"
+>
   Bar
 </div>
 `;
