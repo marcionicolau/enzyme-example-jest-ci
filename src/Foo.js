@@ -3,26 +3,24 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-const propTypes = {
-  loading: PropTypes.bool.isRequired,
-  info: PropTypes.string
-};
-
-const defaultProps = {
-  info: ""
-};
-
 class Foo extends Component {
+  static propTypes = {
+    loading: PropTypes.bool.isRequired,
+    info: PropTypes.string
+  };
+
   constructor(props) {
     super(props);
+
+    this.state = {
+      info: props.info || "",
+      loading: props.loading
+    };
   }
 
   render() {
-    return <div className="foo">Bar</div>;
+    return <div className="foo">{this.state.info}</div>;
   }
 }
-
-Foo.propTypes = propTypes;
-Foo.defaultProps = defaultProps;
 
 export default Foo;
