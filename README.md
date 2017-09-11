@@ -1,18 +1,3 @@
-# enzyme-example-jest
+# enzyme-example-jest-ci
 
-Example project with React + Enzyme + Jest
-
-## Install
-
-1. Clone the repo
-2. From the project's root directory, run `npm install`
-
-## Run Tests
-
-        npm test
-        
-## Credits
-
-The original example, written by Leland Richardson, can be found at [https://github.com/lelandrichardson/enzyme-example-jest](https://github.com/lelandrichardson/enzyme-example-jest).
-
-"# enzyme-example-jest-ci" 
+[![Build Status](https://www.travis-ci.org/marcionicolau/enzyme-example-jest-ci.svg?branch=master)](https://www.travis-ci.org/marcionicolau/enzyme-example-jest-ci)
