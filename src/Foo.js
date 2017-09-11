@@ -19,7 +19,11 @@ class Foo extends Component {
   }
 
   render() {
-    return <div className="foo">{this.state.info}</div>;
+    return (
+      <div className={this.state.loading ? "foo-loading" : "foo"}>
+        {this.state.info}
+      </div>
+    );
   }
 }
 
