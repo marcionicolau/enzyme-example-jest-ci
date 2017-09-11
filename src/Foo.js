@@ -16,7 +16,7 @@ class Foo extends Component {
   }
 
   render() {
-    return <div className="foo">Bar</div>;
+    return <div className="foo0">Bar</div>;
   }
 }
 
