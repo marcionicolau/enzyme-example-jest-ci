@@ -6,7 +6,6 @@ cache:
     - node_modules
 script:
   - yarn test
-  - yarn test -- --coverage
 before_install:
   - pip install --user codecov
 after_success:

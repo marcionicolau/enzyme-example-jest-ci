@@ -8,7 +8,11 @@
   "license": "MIT",
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["json", "lcov", "text"]
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
