@@ -9,17 +9,17 @@ describe("A suite", function() {
     const info = "Bar";
     expect(
       shallow(<Foo loading info={info} />).contains(
-        <div className="foo">{info}</div>
+        <div className="foo-loading">{info}</div>
       )
     ).toBe(true);
   });
 
   it('should be selectable by class "foo"', function() {
-    expect(shallow(<Foo loading />).is(".foo")).toBe(true);
+    expect(shallow(<Foo loading={false} />).is(".foo")).toBe(true);
   });
 
   it("should mount in a full DOM", function() {
-    expect(mount(<Foo loading />).find(".foo").length).toBe(1);
+    expect(mount(<Foo loading={false} />).find(".foo").length).toBe(1);
   });
 
   it("should render to static HTML", function() {
