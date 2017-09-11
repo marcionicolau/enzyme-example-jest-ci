@@ -1,0 +1,73 @@
+exports[`A suite snapshot check 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function buildPredicate],
+    "childrenOfNode": [Function childrenOfNode],
+    "findWhereUnwrapped": [Function findWhereUnwrapped]
+  },
+  "length": 1,
+  "node": <div
+    className="foo">
+    Bar
+</div>,
+  "nodes": Array [
+    <div
+      className="foo">
+      Bar
+</div>
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_context": Object {},
+      "_currentElement": <function Foo(props) {_classCallCheck(this, Foo);return _possibleConstructorReturn(this, (Foo.__proto__ || Object.getPrototypeOf(Foo)).call(this,
+    props));
+  } />,
+      "_instance": Foo {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function enqueueCallback],
+          "enqueueCallbackInternal": [Function enqueueCallbackInternal],
+          "enqueueElementInternal": [Function enqueueElementInternal],
+          "enqueueForceUpdate": [Function enqueueForceUpdate],
+          "enqueueReplaceProps": [Function enqueueReplaceProps],
+          "enqueueReplacePropsInternal": [Function enqueueReplacePropsInternal],
+          "enqueueReplaceState": [Function enqueueReplaceState],
+          "enqueueSetProps": [Function enqueueSetProps],
+          "enqueueSetPropsInternal": [Function enqueueSetPropsInternal],
+          "enqueueSetState": [Function enqueueSetState],
+          "isMounted": [Function isMounted]
+        }
+      },
+      "_mountOrder": 7,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": Object {
+        "_currentElement": <div
+          className="foo">
+          Bar
+</div>,
+        "_renderedOutput": <div
+          className="foo">
+          Bar
+</div>
+      },
+      "_rootNodeID": ".4",
+      "_topLevelWrapper": null
+    },
+    "getRenderOutput": [Function getRenderOutput],
+    "render": [Function render]
+  },
+  "root": [Circular],
+  "unrendered": <function Foo(props) {_classCallCheck(this, Foo);return _possibleConstructorReturn(this, (Foo.__proto__ || Object.getPrototypeOf(Foo)).call(this,
+    props));
+  } />
+}
+`;
