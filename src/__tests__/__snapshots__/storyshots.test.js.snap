@@ -40,7 +40,7 @@ exports[`Storyshots Foo Foo with interaction props 1`] = `
 
 exports[`Storyshots Foo as dynamic variables 1`] = `
 <div>
-  I am Arunoda Susiripala and I'm 89 years old.
+  I am Lewis Carroll and I'm 185 years old.
 </div>
 `;
 
