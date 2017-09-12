@@ -154,3 +154,41 @@ exports[`Storyshots Welcome to Storybook 1`] = `
   </p>
 </article>
 `;
+
+exports[`Storyshots test 2 Paris 1`] = `
+<div
+  color="#333"
+>
+  test
+</div>
+`;
+
+exports[`Storyshots test Orleans 1`] = `
+<div
+  style={
+    Object {
+      "color": "#236544",
+      "fontFamily": "Arial",
+      "fontSize": "16px",
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</div>
+`;
+
+exports[`Storyshots test Paris 1`] = `
+<div
+  style={
+    Object {
+      "color": "#CAF200",
+      "fontFamily": "Roboto",
+      "fontSize": 45,
+      "textAlign": "center",
+    }
+  }
+>
+  Hello
+</div>
+`;
