@@ -1,0 +1,4651 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseTable component test renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <BootstrapTable
+    bodyContainerClass={null}
+    bodyStyle={undefined}
+    bordered={false}
+    cellEdit={
+      Object {
+        "afterSaveCell": undefined,
+        "beforeSaveCell": undefined,
+        "blurToSave": false,
+        "mode": "none",
+        "nonEditableRows": undefined,
+      }
+    }
+    columnFilter={false}
+    condensed={false}
+    containerClass={null}
+    containerStyle={undefined}
+    csvFileName="spreadsheet.csv"
+    data={
+      Array [
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 1,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 1,
+          "WSTA": "KSAS8101",
+        },
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 2,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 2,
+          "WSTA": "KSAS8101",
+        },
+      ]
+    }
+    deleteRow={false}
+    expandColumnOptions={
+      Object {
+        "expandColumnBeforeSelectColumn": true,
+        "expandColumnComponent": undefined,
+        "expandColumnVisible": false,
+      }
+    }
+    expandComponent={undefined}
+    expandableRow={undefined}
+    exportCSV={false}
+    fetchInfo={
+      Object {
+        "dataTotalSize": 0,
+      }
+    }
+    headerContainerClass={null}
+    headerStyle={undefined}
+    height="400px"
+    hover={true}
+    ignoreSinglePage={false}
+    insertRow={false}
+    keyBoardNav={false}
+    maxHeight={undefined}
+    multiColumnSearch={false}
+    multiColumnSort={1}
+    options={
+      Object {
+        "noDataText": "This is custom text for empty data",
+      }
+    }
+    pagination={false}
+    printable={false}
+    replace={false}
+    scrollTop="Bottom"
+    search={false}
+    searchPlaceholder={undefined}
+    selectRow={
+      Object {
+        "bgColor": "",
+        "clickToExpand": false,
+        "clickToSelect": false,
+        "clickToSelectAndEditCell": false,
+        "customComponent": undefined,
+        "hideSelectColumn": false,
+        "mode": "none",
+        "onSelect": undefined,
+        "onSelectAll": undefined,
+        "onlyUnselectVisible": false,
+        "selected": Array [],
+        "showOnlySelected": false,
+        "unselectable": Array [],
+      }
+    }
+    strictSearch={undefined}
+    striped={true}
+    tableBodyClass={null}
+    tableContainerClass={null}
+    tableHeaderClass={null}
+    tableStyle={undefined}
+    trClassName=""
+    trStyle={undefined}
+    version="4"
+    withoutTabIndex={false}
+  >
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="RUNNO"
+      dataFormat={undefined}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={true}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      RUNNO
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="TRNO"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      TRNO
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="R"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      R
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="O"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      O
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="C"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      C
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="CR"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      CR
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="MODEL"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      MODEL
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="TNAM"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      TNAM
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="FNAM"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      FNAM
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="WSTA"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      WSTA
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="SOIL_ID"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      SOIL_ID
+    </TableHeaderColumn>
+  </BootstrapTable>,
+  "nodes": Array [
+    <BootstrapTable
+      bodyContainerClass={null}
+      bodyStyle={undefined}
+      bordered={false}
+      cellEdit={
+        Object {
+          "afterSaveCell": undefined,
+          "beforeSaveCell": undefined,
+          "blurToSave": false,
+          "mode": "none",
+          "nonEditableRows": undefined,
+        }
+      }
+      columnFilter={false}
+      condensed={false}
+      containerClass={null}
+      containerStyle={undefined}
+      csvFileName="spreadsheet.csv"
+      data={
+        Array [
+          Object {
+            "C": 0,
+            "CR": "WH",
+            "FNAM": "KSAS0001",
+            "MODEL": "CSCER046",
+            "O": 0,
+            "R": 1,
+            "RUNNO": 1,
+            "SOIL_ID": "IBWH980018",
+            "TNAM": "DRYLAND  - 0 KG N/HA",
+            "TRNO": 1,
+            "WSTA": "KSAS8101",
+          },
+          Object {
+            "C": 0,
+            "CR": "WH",
+            "FNAM": "KSAS0001",
+            "MODEL": "CSCER046",
+            "O": 0,
+            "R": 1,
+            "RUNNO": 2,
+            "SOIL_ID": "IBWH980018",
+            "TNAM": "DRYLAND  - 0 KG N/HA",
+            "TRNO": 2,
+            "WSTA": "KSAS8101",
+          },
+        ]
+      }
+      deleteRow={false}
+      expandColumnOptions={
+        Object {
+          "expandColumnBeforeSelectColumn": true,
+          "expandColumnComponent": undefined,
+          "expandColumnVisible": false,
+        }
+      }
+      expandComponent={undefined}
+      expandableRow={undefined}
+      exportCSV={false}
+      fetchInfo={
+        Object {
+          "dataTotalSize": 0,
+        }
+      }
+      headerContainerClass={null}
+      headerStyle={undefined}
+      height="400px"
+      hover={true}
+      ignoreSinglePage={false}
+      insertRow={false}
+      keyBoardNav={false}
+      maxHeight={undefined}
+      multiColumnSearch={false}
+      multiColumnSort={1}
+      options={
+        Object {
+          "noDataText": "This is custom text for empty data",
+        }
+      }
+      pagination={false}
+      printable={false}
+      replace={false}
+      scrollTop="Bottom"
+      search={false}
+      searchPlaceholder={undefined}
+      selectRow={
+        Object {
+          "bgColor": "",
+          "clickToExpand": false,
+          "clickToSelect": false,
+          "clickToSelectAndEditCell": false,
+          "customComponent": undefined,
+          "hideSelectColumn": false,
+          "mode": "none",
+          "onSelect": undefined,
+          "onSelectAll": undefined,
+          "onlyUnselectVisible": false,
+          "selected": Array [],
+          "showOnlySelected": false,
+          "unselectable": Array [],
+        }
+      }
+      strictSearch={undefined}
+      striped={true}
+      tableBodyClass={null}
+      tableContainerClass={null}
+      tableHeaderClass={null}
+      tableStyle={undefined}
+      trClassName=""
+      trStyle={undefined}
+      version="4"
+      withoutTabIndex={false}
+    >
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="RUNNO"
+        dataFormat={undefined}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={true}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        RUNNO
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="TRNO"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        TRNO
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="R"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        R
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="O"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        O
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="C"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        C
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="CR"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        CR
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="MODEL"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        MODEL
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="TNAM"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        TNAM
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="FNAM"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        FNAM
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="WSTA"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        WSTA
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="SOIL_ID"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        SOIL_ID
+      </TableHeaderColumn>
+    </BootstrapTable>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <BaseTable
+        data={
+          Array [
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 1,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 1,
+              "WSTA": "KSAS8101",
+            },
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 2,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 2,
+              "WSTA": "KSAS8101",
+            },
+          ]
+        }
+      />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": BaseTable {
+        "_reactInternalInstance": [Circular],
+        "apiCols": [Function],
+        "context": Object {},
+        "priceFormatter": [Function],
+        "props": Object {
+          "data": Array [
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 1,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 1,
+              "WSTA": "KSAS8101",
+            },
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 2,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 2,
+              "WSTA": "KSAS8101",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <BootstrapTable
+          bodyContainerClass={null}
+          bodyStyle={undefined}
+          bordered={false}
+          cellEdit={
+            Object {
+              "afterSaveCell": undefined,
+              "beforeSaveCell": undefined,
+              "blurToSave": false,
+              "mode": "none",
+              "nonEditableRows": undefined,
+            }
+          }
+          columnFilter={false}
+          condensed={false}
+          containerClass={null}
+          containerStyle={undefined}
+          csvFileName="spreadsheet.csv"
+          data={
+            Array [
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 1,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 1,
+                "WSTA": "KSAS8101",
+              },
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 2,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 2,
+                "WSTA": "KSAS8101",
+              },
+            ]
+          }
+          deleteRow={false}
+          expandColumnOptions={
+            Object {
+              "expandColumnBeforeSelectColumn": true,
+              "expandColumnComponent": undefined,
+              "expandColumnVisible": false,
+            }
+          }
+          expandComponent={undefined}
+          expandableRow={undefined}
+          exportCSV={false}
+          fetchInfo={
+            Object {
+              "dataTotalSize": 0,
+            }
+          }
+          headerContainerClass={null}
+          headerStyle={undefined}
+          height="400px"
+          hover={true}
+          ignoreSinglePage={false}
+          insertRow={false}
+          keyBoardNav={false}
+          maxHeight={undefined}
+          multiColumnSearch={false}
+          multiColumnSort={1}
+          options={
+            Object {
+              "noDataText": "This is custom text for empty data",
+            }
+          }
+          pagination={false}
+          printable={false}
+          replace={false}
+          scrollTop="Bottom"
+          search={false}
+          searchPlaceholder={undefined}
+          selectRow={
+            Object {
+              "bgColor": "",
+              "clickToExpand": false,
+              "clickToSelect": false,
+              "clickToSelectAndEditCell": false,
+              "customComponent": undefined,
+              "hideSelectColumn": false,
+              "mode": "none",
+              "onSelect": undefined,
+              "onSelectAll": undefined,
+              "onlyUnselectVisible": false,
+              "selected": Array [],
+              "showOnlySelected": false,
+              "unselectable": Array [],
+            }
+          }
+          strictSearch={undefined}
+          striped={true}
+          tableBodyClass={null}
+          tableContainerClass={null}
+          tableHeaderClass={null}
+          tableStyle={undefined}
+          trClassName=""
+          trStyle={undefined}
+          version="4"
+          withoutTabIndex={false}
+        >
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="RUNNO"
+            dataFormat={undefined}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={true}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            RUNNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TRNO"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TRNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="R"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            R
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="O"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            O
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="C"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            C
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="CR"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            CR
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="MODEL"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            MODEL
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="FNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            FNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="WSTA"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            WSTA
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="SOIL_ID"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            SOIL_ID
+          </TableHeaderColumn>
+        </BootstrapTable>,
+        "_debugID": 4,
+        "_renderedOutput": <BootstrapTable
+          bodyContainerClass={null}
+          bodyStyle={undefined}
+          bordered={false}
+          cellEdit={
+            Object {
+              "afterSaveCell": undefined,
+              "beforeSaveCell": undefined,
+              "blurToSave": false,
+              "mode": "none",
+              "nonEditableRows": undefined,
+            }
+          }
+          columnFilter={false}
+          condensed={false}
+          containerClass={null}
+          containerStyle={undefined}
+          csvFileName="spreadsheet.csv"
+          data={
+            Array [
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 1,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 1,
+                "WSTA": "KSAS8101",
+              },
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 2,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 2,
+                "WSTA": "KSAS8101",
+              },
+            ]
+          }
+          deleteRow={false}
+          expandColumnOptions={
+            Object {
+              "expandColumnBeforeSelectColumn": true,
+              "expandColumnComponent": undefined,
+              "expandColumnVisible": false,
+            }
+          }
+          expandComponent={undefined}
+          expandableRow={undefined}
+          exportCSV={false}
+          fetchInfo={
+            Object {
+              "dataTotalSize": 0,
+            }
+          }
+          headerContainerClass={null}
+          headerStyle={undefined}
+          height="400px"
+          hover={true}
+          ignoreSinglePage={false}
+          insertRow={false}
+          keyBoardNav={false}
+          maxHeight={undefined}
+          multiColumnSearch={false}
+          multiColumnSort={1}
+          options={
+            Object {
+              "noDataText": "This is custom text for empty data",
+            }
+          }
+          pagination={false}
+          printable={false}
+          replace={false}
+          scrollTop="Bottom"
+          search={false}
+          searchPlaceholder={undefined}
+          selectRow={
+            Object {
+              "bgColor": "",
+              "clickToExpand": false,
+              "clickToSelect": false,
+              "clickToSelectAndEditCell": false,
+              "customComponent": undefined,
+              "hideSelectColumn": false,
+              "mode": "none",
+              "onSelect": undefined,
+              "onSelectAll": undefined,
+              "onlyUnselectVisible": false,
+              "selected": Array [],
+              "showOnlySelected": false,
+              "unselectable": Array [],
+            }
+          }
+          strictSearch={undefined}
+          striped={true}
+          tableBodyClass={null}
+          tableContainerClass={null}
+          tableHeaderClass={null}
+          tableStyle={undefined}
+          trClassName=""
+          trStyle={undefined}
+          version="4"
+          withoutTabIndex={false}
+        >
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="RUNNO"
+            dataFormat={undefined}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={true}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            RUNNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TRNO"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TRNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="R"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            R
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="O"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            O
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="C"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            C
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="CR"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            CR
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="MODEL"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            MODEL
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="FNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            FNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="WSTA"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            WSTA
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="SOIL_ID"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            SOIL_ID
+          </TableHeaderColumn>
+        </BootstrapTable>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <BaseTable
+    data={
+      Array [
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 1,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 1,
+          "WSTA": "KSAS8101",
+        },
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 2,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 2,
+          "WSTA": "KSAS8101",
+        },
+      ]
+    }
+  />,
+}
+`;
+
+exports[`BaseTable component test test component with prop data empty. 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <BootstrapTable
+    bodyContainerClass={null}
+    bodyStyle={undefined}
+    bordered={false}
+    cellEdit={
+      Object {
+        "afterSaveCell": undefined,
+        "beforeSaveCell": undefined,
+        "blurToSave": false,
+        "mode": "none",
+        "nonEditableRows": undefined,
+      }
+    }
+    columnFilter={false}
+    condensed={false}
+    containerClass={null}
+    containerStyle={undefined}
+    csvFileName="spreadsheet.csv"
+    data={
+      Array [
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 1,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 1,
+          "WSTA": "KSAS8101",
+        },
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 2,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 2,
+          "WSTA": "KSAS8101",
+        },
+      ]
+    }
+    deleteRow={false}
+    expandColumnOptions={
+      Object {
+        "expandColumnBeforeSelectColumn": true,
+        "expandColumnComponent": undefined,
+        "expandColumnVisible": false,
+      }
+    }
+    expandComponent={undefined}
+    expandableRow={undefined}
+    exportCSV={false}
+    fetchInfo={
+      Object {
+        "dataTotalSize": 0,
+      }
+    }
+    headerContainerClass={null}
+    headerStyle={undefined}
+    height="400px"
+    hover={true}
+    ignoreSinglePage={false}
+    insertRow={false}
+    keyBoardNav={false}
+    maxHeight={undefined}
+    multiColumnSearch={false}
+    multiColumnSort={1}
+    options={
+      Object {
+        "noDataText": "This is custom text for empty data",
+      }
+    }
+    pagination={false}
+    printable={false}
+    replace={false}
+    scrollTop="Bottom"
+    search={false}
+    searchPlaceholder={undefined}
+    selectRow={
+      Object {
+        "bgColor": "",
+        "clickToExpand": false,
+        "clickToSelect": false,
+        "clickToSelectAndEditCell": false,
+        "customComponent": undefined,
+        "hideSelectColumn": false,
+        "mode": "none",
+        "onSelect": undefined,
+        "onSelectAll": undefined,
+        "onlyUnselectVisible": false,
+        "selected": Array [],
+        "showOnlySelected": false,
+        "unselectable": Array [],
+      }
+    }
+    strictSearch={undefined}
+    striped={true}
+    tableBodyClass={null}
+    tableContainerClass={null}
+    tableHeaderClass={null}
+    tableStyle={undefined}
+    trClassName=""
+    trStyle={undefined}
+    version="4"
+    withoutTabIndex={false}
+  >
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="RUNNO"
+      dataFormat={undefined}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={true}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      RUNNO
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="TRNO"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      TRNO
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="R"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      R
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="O"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      O
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="C"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      C
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="CR"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      CR
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="MODEL"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      MODEL
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="TNAM"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      TNAM
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="FNAM"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      FNAM
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="WSTA"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      WSTA
+    </TableHeaderColumn>
+    <TableHeaderColumn
+      className=""
+      columnClassName=""
+      columnTitle={false}
+      csvFormat={undefined}
+      csvHeader={undefined}
+      dataAlign="left"
+      dataField="SOIL_ID"
+      dataFormat={[Function]}
+      dataSort={false}
+      defaultASC={false}
+      editColumnClassName=""
+      editTdAttr={undefined}
+      editable={true}
+      expandable={true}
+      filter={undefined}
+      filterFormatted={false}
+      filterValue={undefined}
+      formatExtraData={undefined}
+      headerAlign={undefined}
+      headerTitle={true}
+      hidden={false}
+      hiddenOnInsert={false}
+      invalidEditColumnClassName=""
+      isKey={false}
+      keyValidator={false}
+      onSort={undefined}
+      searchable={true}
+      sort={undefined}
+      sortFunc={undefined}
+      sortFuncExtraData={undefined}
+      sortIndicator={true}
+      tdAttr={undefined}
+      tdStyle={undefined}
+      thStyle={undefined}
+      width="80"
+    >
+      SOIL_ID
+    </TableHeaderColumn>
+  </BootstrapTable>,
+  "nodes": Array [
+    <BootstrapTable
+      bodyContainerClass={null}
+      bodyStyle={undefined}
+      bordered={false}
+      cellEdit={
+        Object {
+          "afterSaveCell": undefined,
+          "beforeSaveCell": undefined,
+          "blurToSave": false,
+          "mode": "none",
+          "nonEditableRows": undefined,
+        }
+      }
+      columnFilter={false}
+      condensed={false}
+      containerClass={null}
+      containerStyle={undefined}
+      csvFileName="spreadsheet.csv"
+      data={
+        Array [
+          Object {
+            "C": 0,
+            "CR": "WH",
+            "FNAM": "KSAS0001",
+            "MODEL": "CSCER046",
+            "O": 0,
+            "R": 1,
+            "RUNNO": 1,
+            "SOIL_ID": "IBWH980018",
+            "TNAM": "DRYLAND  - 0 KG N/HA",
+            "TRNO": 1,
+            "WSTA": "KSAS8101",
+          },
+          Object {
+            "C": 0,
+            "CR": "WH",
+            "FNAM": "KSAS0001",
+            "MODEL": "CSCER046",
+            "O": 0,
+            "R": 1,
+            "RUNNO": 2,
+            "SOIL_ID": "IBWH980018",
+            "TNAM": "DRYLAND  - 0 KG N/HA",
+            "TRNO": 2,
+            "WSTA": "KSAS8101",
+          },
+        ]
+      }
+      deleteRow={false}
+      expandColumnOptions={
+        Object {
+          "expandColumnBeforeSelectColumn": true,
+          "expandColumnComponent": undefined,
+          "expandColumnVisible": false,
+        }
+      }
+      expandComponent={undefined}
+      expandableRow={undefined}
+      exportCSV={false}
+      fetchInfo={
+        Object {
+          "dataTotalSize": 0,
+        }
+      }
+      headerContainerClass={null}
+      headerStyle={undefined}
+      height="400px"
+      hover={true}
+      ignoreSinglePage={false}
+      insertRow={false}
+      keyBoardNav={false}
+      maxHeight={undefined}
+      multiColumnSearch={false}
+      multiColumnSort={1}
+      options={
+        Object {
+          "noDataText": "This is custom text for empty data",
+        }
+      }
+      pagination={false}
+      printable={false}
+      replace={false}
+      scrollTop="Bottom"
+      search={false}
+      searchPlaceholder={undefined}
+      selectRow={
+        Object {
+          "bgColor": "",
+          "clickToExpand": false,
+          "clickToSelect": false,
+          "clickToSelectAndEditCell": false,
+          "customComponent": undefined,
+          "hideSelectColumn": false,
+          "mode": "none",
+          "onSelect": undefined,
+          "onSelectAll": undefined,
+          "onlyUnselectVisible": false,
+          "selected": Array [],
+          "showOnlySelected": false,
+          "unselectable": Array [],
+        }
+      }
+      strictSearch={undefined}
+      striped={true}
+      tableBodyClass={null}
+      tableContainerClass={null}
+      tableHeaderClass={null}
+      tableStyle={undefined}
+      trClassName=""
+      trStyle={undefined}
+      version="4"
+      withoutTabIndex={false}
+    >
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="RUNNO"
+        dataFormat={undefined}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={true}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        RUNNO
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="TRNO"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        TRNO
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="R"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        R
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="O"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        O
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="C"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        C
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="CR"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        CR
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="MODEL"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        MODEL
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="TNAM"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        TNAM
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="FNAM"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        FNAM
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="WSTA"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        WSTA
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        className=""
+        columnClassName=""
+        columnTitle={false}
+        csvFormat={undefined}
+        csvHeader={undefined}
+        dataAlign="left"
+        dataField="SOIL_ID"
+        dataFormat={[Function]}
+        dataSort={false}
+        defaultASC={false}
+        editColumnClassName=""
+        editTdAttr={undefined}
+        editable={true}
+        expandable={true}
+        filter={undefined}
+        filterFormatted={false}
+        filterValue={undefined}
+        formatExtraData={undefined}
+        headerAlign={undefined}
+        headerTitle={true}
+        hidden={false}
+        hiddenOnInsert={false}
+        invalidEditColumnClassName=""
+        isKey={false}
+        keyValidator={false}
+        onSort={undefined}
+        searchable={true}
+        sort={undefined}
+        sortFunc={undefined}
+        sortFuncExtraData={undefined}
+        sortIndicator={true}
+        tdAttr={undefined}
+        tdStyle={undefined}
+        thStyle={undefined}
+        width="80"
+      >
+        SOIL_ID
+      </TableHeaderColumn>
+    </BootstrapTable>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <BaseTable
+        data={
+          Array [
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 1,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 1,
+              "WSTA": "KSAS8101",
+            },
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 2,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 2,
+              "WSTA": "KSAS8101",
+            },
+          ]
+        }
+      />,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": BaseTable {
+        "_reactInternalInstance": [Circular],
+        "apiCols": [Function],
+        "context": Object {},
+        "priceFormatter": [Function],
+        "props": Object {
+          "data": Array [
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 1,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 1,
+              "WSTA": "KSAS8101",
+            },
+            Object {
+              "C": 0,
+              "CR": "WH",
+              "FNAM": "KSAS0001",
+              "MODEL": "CSCER046",
+              "O": 0,
+              "R": 1,
+              "RUNNO": 2,
+              "SOIL_ID": "IBWH980018",
+              "TNAM": "DRYLAND  - 0 KG N/HA",
+              "TRNO": 2,
+              "WSTA": "KSAS8101",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 4,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <BootstrapTable
+          bodyContainerClass={null}
+          bodyStyle={undefined}
+          bordered={false}
+          cellEdit={
+            Object {
+              "afterSaveCell": undefined,
+              "beforeSaveCell": undefined,
+              "blurToSave": false,
+              "mode": "none",
+              "nonEditableRows": undefined,
+            }
+          }
+          columnFilter={false}
+          condensed={false}
+          containerClass={null}
+          containerStyle={undefined}
+          csvFileName="spreadsheet.csv"
+          data={
+            Array [
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 1,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 1,
+                "WSTA": "KSAS8101",
+              },
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 2,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 2,
+                "WSTA": "KSAS8101",
+              },
+            ]
+          }
+          deleteRow={false}
+          expandColumnOptions={
+            Object {
+              "expandColumnBeforeSelectColumn": true,
+              "expandColumnComponent": undefined,
+              "expandColumnVisible": false,
+            }
+          }
+          expandComponent={undefined}
+          expandableRow={undefined}
+          exportCSV={false}
+          fetchInfo={
+            Object {
+              "dataTotalSize": 0,
+            }
+          }
+          headerContainerClass={null}
+          headerStyle={undefined}
+          height="400px"
+          hover={true}
+          ignoreSinglePage={false}
+          insertRow={false}
+          keyBoardNav={false}
+          maxHeight={undefined}
+          multiColumnSearch={false}
+          multiColumnSort={1}
+          options={
+            Object {
+              "noDataText": "This is custom text for empty data",
+            }
+          }
+          pagination={false}
+          printable={false}
+          replace={false}
+          scrollTop="Bottom"
+          search={false}
+          searchPlaceholder={undefined}
+          selectRow={
+            Object {
+              "bgColor": "",
+              "clickToExpand": false,
+              "clickToSelect": false,
+              "clickToSelectAndEditCell": false,
+              "customComponent": undefined,
+              "hideSelectColumn": false,
+              "mode": "none",
+              "onSelect": undefined,
+              "onSelectAll": undefined,
+              "onlyUnselectVisible": false,
+              "selected": Array [],
+              "showOnlySelected": false,
+              "unselectable": Array [],
+            }
+          }
+          strictSearch={undefined}
+          striped={true}
+          tableBodyClass={null}
+          tableContainerClass={null}
+          tableHeaderClass={null}
+          tableStyle={undefined}
+          trClassName=""
+          trStyle={undefined}
+          version="4"
+          withoutTabIndex={false}
+        >
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="RUNNO"
+            dataFormat={undefined}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={true}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            RUNNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TRNO"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TRNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="R"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            R
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="O"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            O
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="C"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            C
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="CR"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            CR
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="MODEL"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            MODEL
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="FNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            FNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="WSTA"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            WSTA
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="SOIL_ID"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            SOIL_ID
+          </TableHeaderColumn>
+        </BootstrapTable>,
+        "_debugID": 8,
+        "_renderedOutput": <BootstrapTable
+          bodyContainerClass={null}
+          bodyStyle={undefined}
+          bordered={false}
+          cellEdit={
+            Object {
+              "afterSaveCell": undefined,
+              "beforeSaveCell": undefined,
+              "blurToSave": false,
+              "mode": "none",
+              "nonEditableRows": undefined,
+            }
+          }
+          columnFilter={false}
+          condensed={false}
+          containerClass={null}
+          containerStyle={undefined}
+          csvFileName="spreadsheet.csv"
+          data={
+            Array [
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 1,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 1,
+                "WSTA": "KSAS8101",
+              },
+              Object {
+                "C": 0,
+                "CR": "WH",
+                "FNAM": "KSAS0001",
+                "MODEL": "CSCER046",
+                "O": 0,
+                "R": 1,
+                "RUNNO": 2,
+                "SOIL_ID": "IBWH980018",
+                "TNAM": "DRYLAND  - 0 KG N/HA",
+                "TRNO": 2,
+                "WSTA": "KSAS8101",
+              },
+            ]
+          }
+          deleteRow={false}
+          expandColumnOptions={
+            Object {
+              "expandColumnBeforeSelectColumn": true,
+              "expandColumnComponent": undefined,
+              "expandColumnVisible": false,
+            }
+          }
+          expandComponent={undefined}
+          expandableRow={undefined}
+          exportCSV={false}
+          fetchInfo={
+            Object {
+              "dataTotalSize": 0,
+            }
+          }
+          headerContainerClass={null}
+          headerStyle={undefined}
+          height="400px"
+          hover={true}
+          ignoreSinglePage={false}
+          insertRow={false}
+          keyBoardNav={false}
+          maxHeight={undefined}
+          multiColumnSearch={false}
+          multiColumnSort={1}
+          options={
+            Object {
+              "noDataText": "This is custom text for empty data",
+            }
+          }
+          pagination={false}
+          printable={false}
+          replace={false}
+          scrollTop="Bottom"
+          search={false}
+          searchPlaceholder={undefined}
+          selectRow={
+            Object {
+              "bgColor": "",
+              "clickToExpand": false,
+              "clickToSelect": false,
+              "clickToSelectAndEditCell": false,
+              "customComponent": undefined,
+              "hideSelectColumn": false,
+              "mode": "none",
+              "onSelect": undefined,
+              "onSelectAll": undefined,
+              "onlyUnselectVisible": false,
+              "selected": Array [],
+              "showOnlySelected": false,
+              "unselectable": Array [],
+            }
+          }
+          strictSearch={undefined}
+          striped={true}
+          tableBodyClass={null}
+          tableContainerClass={null}
+          tableHeaderClass={null}
+          tableStyle={undefined}
+          trClassName=""
+          trStyle={undefined}
+          version="4"
+          withoutTabIndex={false}
+        >
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="RUNNO"
+            dataFormat={undefined}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={true}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            RUNNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TRNO"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TRNO
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="R"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            R
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="O"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            O
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="C"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            C
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="CR"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            CR
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="MODEL"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            MODEL
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="TNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            TNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="FNAM"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            FNAM
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="WSTA"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            WSTA
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            className=""
+            columnClassName=""
+            columnTitle={false}
+            csvFormat={undefined}
+            csvHeader={undefined}
+            dataAlign="left"
+            dataField="SOIL_ID"
+            dataFormat={[Function]}
+            dataSort={false}
+            defaultASC={false}
+            editColumnClassName=""
+            editTdAttr={undefined}
+            editable={true}
+            expandable={true}
+            filter={undefined}
+            filterFormatted={false}
+            filterValue={undefined}
+            formatExtraData={undefined}
+            headerAlign={undefined}
+            headerTitle={true}
+            hidden={false}
+            hiddenOnInsert={false}
+            invalidEditColumnClassName=""
+            isKey={false}
+            keyValidator={false}
+            onSort={undefined}
+            searchable={true}
+            sort={undefined}
+            sortFunc={undefined}
+            sortFuncExtraData={undefined}
+            sortIndicator={true}
+            tdAttr={undefined}
+            tdStyle={undefined}
+            thStyle={undefined}
+            width="80"
+          >
+            SOIL_ID
+          </TableHeaderColumn>
+        </BootstrapTable>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <BaseTable
+    data={
+      Array [
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 1,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 1,
+          "WSTA": "KSAS8101",
+        },
+        Object {
+          "C": 0,
+          "CR": "WH",
+          "FNAM": "KSAS0001",
+          "MODEL": "CSCER046",
+          "O": 0,
+          "R": 1,
+          "RUNNO": 2,
+          "SOIL_ID": "IBWH980018",
+          "TNAM": "DRYLAND  - 0 KG N/HA",
+          "TRNO": 2,
+          "WSTA": "KSAS8101",
+        },
+      ]
+    }
+  />,
+}
+`;
