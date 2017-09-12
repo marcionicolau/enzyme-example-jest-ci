@@ -6,6 +6,7 @@ cache:
     - node_modules
 script:
   - yarn test
+  - yarn coveralls
   - yarn build-storybook
 before_install:
   - pip install --user codecov
