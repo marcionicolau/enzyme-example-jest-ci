@@ -5,16 +5,12 @@
   "scripts": {
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -c .storybook -o docs"
   },
   "license": "MIT",
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": [
-      "json",
-      "lcov",
-      "text"
-    ]
+    "coverageReporters": ["json", "lcov", "text"]
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.6",
@@ -45,10 +41,10 @@
     "json": "^9.0.6",
     "react-addons-test-utils": "^15.6.0",
     "react-test-renderer": "^15.6.1",
-    "storybook-addon-specifications": "^2.1.1"
+    "storybook-addon-specifications": "^2.1.1",
+    "flow-types": "^1.0.0"
   },
   "dependencies": {
-    "flow-types": "^1.0.0",
     "global": "^4.3.2",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
