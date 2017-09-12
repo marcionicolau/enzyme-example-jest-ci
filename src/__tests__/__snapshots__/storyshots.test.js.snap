@@ -30,6 +30,28 @@ exports[`Storyshots Foo Default options 1`] = `
 </div>
 `;
 
+exports[`Storyshots Foo Foo with interaction props 1`] = `
+<div
+  className="foo"
+>
+  Hello Button
+</div>
+`;
+
+exports[`Storyshots Foo as dynamic variables 1`] = `
+<div>
+  I am Arunoda Susiripala and I'm 89 years old.
+</div>
+`;
+
+exports[`Storyshots Foo with a button 1`] = `
+<button
+  disabled={false}
+>
+  Hello Button
+</button>
+`;
+
 exports[`Storyshots Welcome to Storybook 1`] = `
 <article
   className="css-1fqbdip"
